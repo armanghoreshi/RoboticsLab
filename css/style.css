@@ -1,0 +1,22 @@
+
+.carousel-inner{
+    height: 700px;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("Untitled2.png");
+    /* Set a specific height */
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
