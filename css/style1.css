@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+.p{
+    direction: rtl;
+}
+.menu a{
+    color: white;
+    text-shadow: 2px 2px black ;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 20px;
+    float: right;
+    transition: padding 0.5s;
+}
+@keyframes example {
+    from {
+        background-color: #8E44AD;}
+    to {
+        background-color: #900C3F;}
+}
+.menu a:hover{
+    animation-name:example;
+    background-color: #900C3F;
+    animation-duration: 1s ;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+}
+.section_content {
+    max-width: 1440px;
+    padding: 0px;
+    margin: 0 auto;
+}
+.section{
+    width: 100%;
+}
+.menu:after{
+    content: " ";
+    display: block;
+    clear:right;
+
+}
+.menu_section{
+    background-color: transparent ;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition:  background-color 0.5s;
+    transition: background-color 0.5s;
+
+
+}
+
+.menu .siteLogo{
+    float: left;
+
+
+}
+.menu .siteLogo h1{
+    font-size: medium;
+    margin: 0;
+
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+
+}
+
+div.scrollmenu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+
+
+
+.square {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 10px 5px;
+    background-color: #58004C;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.mother {
+
+    overflow: scroll;
+    position: relative;
+    background-color: transparent;
+}
+
+.mother::after {
+    content: " ";
+    display: block;
+    clear: left;
+}
+
+.parent {
+    height: 310px;
+    overflow: scroll;
+    background-color: transparent;
+}
+.people-img{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    align-self: center;
+    margin: 7px auto;
+    background-image: url("../img/images.jpeg");
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position: center;
+
+}
+.arrow{
+    transition: opacity 1s;
+    background-color: #C500C5 ;
+    border-radius: 100px;
+    width: 90px ;
+    height: 90px;
+    opacity: 0.5;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 1;
+}
+.arrow-right{
+    right: -51px;
+    left:auto;
+}
+.arrow-left{
+    left: -50px;
+}
