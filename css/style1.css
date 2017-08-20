@@ -141,3 +141,11 @@ div.scrollmenu a {
 .arrow-left{
     left: -50px;
 }
+.carousel-inner .item img{
+    min-width: 50cm;
+    margin: 0 auto;
+    height: 100vh;
+}
+.carousel-inner{
+    height: 100vh;
+}
