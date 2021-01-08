@@ -1,4 +1,2 @@
 # RoboticsLab
-hello
-this is ferdowsi university of mashhad's robotics lab website.
-designed by : ****
+This is ferdowsi university's robotics lab website.
